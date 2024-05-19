@@ -30,9 +30,10 @@ const NavBar = () => {
     <div className="border-b border-b-neutral-300 dark:border-b-neutral-700 fixed top-0 left-0 right-0 bg-white dark:bg-black backdrop-blur-lg bg-opacity-60 z-50">
       <Toaster />
       <div className="mx-8 lg:mx-6 xl:mx-16 flex justify-between items-center py-6">
-        <Link href="/" className="text-4xl font-bold">
-          mystory
-        </Link>
+      <Link href="/" className="text-4xl font-bold ma" style={{ marginRight: '10px' }}>
+  mystory
+</Link>
+
 
         <div className="justify-center gap-6 hidden lg:flex items-center">
           <Link href="/" className={navClass}>
